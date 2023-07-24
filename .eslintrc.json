@@ -2,8 +2,7 @@
   "extends": [
     "next/core-web-vitals",
     "plugin:prettier/recommended",
-    "prettier",
-    "plugin:tailwindcss/recommended"
+    "prettier"
   ],
   "plugins": ["eslint-plugin-import-helpers"],
   "rules": {
@@ -24,12 +23,6 @@
       }
     ]
   },
-  "overrides": [
-    {
-      "files": "['*.ts', '*.tsx', '*.js']",
-      "parser": "@typescript-eslint/parser"
-    }
-  ],
   "settings": {
     "react": {
       "version": "detect"
